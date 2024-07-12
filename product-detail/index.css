@@ -87,9 +87,6 @@ th {
     margin: auto;
     margin-top: 8px;
     border: 1;
-
-
-    display: inline-flex;
     align-items: center;
 }
 
@@ -129,7 +126,6 @@ th {
     }
 
     .buy-button {
-        
         font-size: var(--fs-medium);
         text-align: center;
         vertical-align: middle;
@@ -143,9 +139,6 @@ th {
         margin: auto;
         margin-top: 8px;
         border: 1;
-
-
-
         align-items: center;
     }
 }
@@ -187,6 +180,7 @@ th {
         margin: auto;
         margin-top: 8px;
         border: 1;
+        align-items: center;
     }
 
     .icons {
@@ -245,6 +239,7 @@ th {
         margin: auto;
         margin-top: 8px;
         border: 1;
+        align-items: center;
     }
 
     .icons {
