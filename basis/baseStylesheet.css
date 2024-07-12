@@ -33,7 +33,7 @@ a {
   color: inherit;
 }
 
-p {
+.footer-p {
   font-family: var(--font);
   padding: 0;
   margin: 0;

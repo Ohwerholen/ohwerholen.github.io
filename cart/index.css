@@ -50,9 +50,14 @@ th {
     background-color: var(--clr-secondary);
 }
 
-.amount-input-container{
+.cart-form {
+    padding: 0;
+    margin: 0;
+}
+
+.amount-input-container {
     display: flex;
-    padding-top: 30px;
+    padding-top: 20 px;
     justify-content: space-evenly;
 }
 .amount-input {
@@ -60,7 +65,7 @@ th {
     margin-top: auto;
     margin-bottom: auto;
     align-self: flex-end;
-    width: 10%;
+    width: 20%;
     background-color: var(--white-space);
 }
 
@@ -366,7 +371,6 @@ footer {
     border-radius: var(--border-radius);
 }
 form {
-    margin-top: var(--pad-huge);
     background: var(--white-space);
     padding: var(--pad-large);
     box-shadow: var(--shadow);
