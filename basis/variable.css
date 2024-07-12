@@ -1,4 +1,6 @@
 :root {
+
+    /*Colors Variables*/
     --clr-primary: #1e90ff;
     --clr-secondary: #FFA500;
     --clr-secondary-darker: #d68c02;
@@ -11,6 +13,7 @@
     --text-dark: #333;
     --text-light: #666;
 
+    /*Font-size Variables*/
     --fs-tiny: 7px;
     --fs-mini: 9px;
     --fs-small: 12px;
@@ -19,18 +22,22 @@
     --fs-large: 25px;
     --fs-huge: 30px;
 
+    /*Image-size Variables*/
     --img-small: 60px;
     --img-medium: 120px;
     --img-large: 180px;
 
+    /*Padding-size Variables*/
     --pad-tiny: 5px;
     --pad-small: 8px;
     --pad-medium: 15px;
     --pad-large: 20px;
     --pad-huge: 26px;
 
+    /*Font-family Variables*/
     --font: "Roboto", sans-serif;
 
+    /*Others Variables*/
     --border-radius: 8px;
     --shadow: 0 0 10px rgba(0,0,0,0.1);
 }
