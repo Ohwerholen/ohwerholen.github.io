@@ -1,0 +1,103 @@
+@import url("../basis/variable.css");
+
+p {
+    display: flex;
+    justify-content: center;
+    line-height: 175%;
+}
+
+.article-img {
+    display: block;
+    margin: auto auto;
+    width: 80%;
+    transition: transform 0.3s ease;
+}
+
+.price {
+    line-height: 150%;
+    color: var(--price-color);
+    font-size: var(--fs-huge);
+}
+
+.product {
+    background-color: var(--white-space);
+    box-shadow: var(--shadow);
+    border-radius: 25px;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs-big);
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: var(--gray-space);
+    padding: 30px;
+}
+
+.icons {
+    width: 90px;
+}
+
+@media only screen and (min-width: 491px) and (max-width: 960px) {
+    .icons {
+        width: 85px;
+    }
+
+    .price {
+        color: var(--price-color);
+        font-size: var(--fs-medium);
+    }
+
+    .product {
+        background-color: var(--white-space);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: var(--fs-medium);
+    }
+
+    .grid-container {
+        background-color: var(--gray-space);
+        display: grid;
+        gap: 50px;
+        grid-template-columns: auto auto;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .icons {
+        width: 80px;
+    }
+
+    .price {
+        color: var(--price-color);
+        font-size: var(--fs-medium);
+    }
+
+    .product {
+        background-color: var(--white-space);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: var(--fs-small);
+    }
+
+    .grid-container {
+        background-color: var(--gray-space);
+        display: grid;
+        gap: 50px;
+        grid-template-columns: auto;
+        padding: 30px;
+    }
+}
