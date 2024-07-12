@@ -34,7 +34,7 @@ h1 {
     font-size: var(--fs-large);
 }
 
-p {
+.p-text {
     text-align: center;
     margin-bottom: var(--pad-large);
     font-size: var(--fs-medium);
@@ -93,12 +93,6 @@ button:hover {
     background: var(--clr-secondary);
 }
 
-footer {
-    background: var(--clr-primary);
-    color: var(--white-space);
-    text-align: center;
-    padding: var(--pad-medium) 0;
-}
 
 .about-us {
     max-width: 800px;
@@ -128,7 +122,7 @@ footer {
         font-size: var(--fs-large);
     }
     
-    p {
+    .p-text {
         text-align: center;
         margin-bottom: var(--pad-large);
         font-size: var(--fs-large);
@@ -167,7 +161,7 @@ footer {
         font-size: var(--fs-large);
     }
     
-    p {
+    .p-text {
         text-align: center;
         margin-bottom: var(--pad-large);
         font-size: var(--fs-medium);
@@ -208,7 +202,7 @@ footer {
         font-size: var(--fs-small);
     }
     
-    p {
+    .p-text {
         text-align: center;
         margin-bottom: var(--pad-large);
         font-size: var(--fs-small);
