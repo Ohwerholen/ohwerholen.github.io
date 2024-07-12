@@ -1,5 +1,7 @@
 @import url("../basis/variable.css");
 
+
+
 h3 {
     margin: 0;
     font-family: var(--font);
@@ -49,6 +51,24 @@ th {
 
 
 
+
+a.button-a {
+    border: 1.5px solid black;
+    margin: 0;
+    padding: none;
+    align-items: center;
+    vertical-align: middle;
+    font-size: var(--fs-medium);
+    font-family: var(--font);
+    background-color: var(--clr-secondary);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 8px;
+}
+
 .description {
     margin-right: 5%;
 }
@@ -74,20 +94,6 @@ th {
 
 .icons {
     width: 90px;
-}
-
-.buy-button {
-    vertical-align: middle;
-    font-size: var(--fs-medium);
-    font-family: var(--font);
-    background-color: var(--clr-secondary);
-    width: 35%;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    margin-top: 8px;
-    border: 1;
-    align-items: center;
 }
 
 
@@ -124,23 +130,8 @@ th {
         align-items: center;
         font-size: var(--fs-big);
     }
+    
 
-    .buy-button {
-        font-size: var(--fs-medium);
-        text-align: center;
-        vertical-align: middle;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-family: var(--font);
-        background-color: var(--clr-secondary);
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        margin-top: 8px;
-        border: 1;
-        align-items: center;
-    }
 }
 
 
@@ -164,24 +155,23 @@ th {
         line-height: 150%;
     }
 
-
-
-    .buy-button {
+    a.button-a {
+        border: 1px solid black;
+        margin: 0;
+        padding: none;
+        align-items: center;
         vertical-align: middle;
-        font-size: var(--fs-small);
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: var(--fs-small);
+        font-size: var(--fs-medium);
         font-family: var(--font);
         background-color: var(--clr-secondary);
-        width: 65%;
+        width: 110px;
+        height: 30px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin: auto;
         margin-top: 8px;
-        border: 1;
-        align-items: center;
     }
+
 
     .icons {
         width: 85px;
@@ -225,21 +215,21 @@ th {
 
 @media only screen and (max-width: 490px) {
 
-
-    .buy-button {
+    a.button-a {
+        border: 1px solid black;
+        margin: 0;
+        padding: none;
+        align-items: center;
         vertical-align: middle;
-        margin-top: auto;
-        margin-bottom: auto;
         font-size: var(--fs-small);
         font-family: var(--font);
         background-color: var(--clr-secondary);
-        width: 30%;
+        width: 90px;
+        height: 30px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin: auto;
         margin-top: 8px;
-        border: 1;
-        align-items: center;
     }
 
     .icons {
